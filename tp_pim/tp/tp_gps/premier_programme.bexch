@@ -1,0 +1,19 @@
+[GENERATED OBJECT FILE]
+b__premier_programme.o
+[PROJECT FILES]
+/home/melyesse/Premiere_anne/tp_pim/tp/tp_gps/tp_gps.gpr
+20211018144450 96fba760209f232b5471509137fcd67c
+[BOUND OBJECT FILES]
+/home/melyesse/Premiere_anne/tp_pim/tp/tp_gps/premier_programme.o
+[GENERATED SOURCE FILES]
+b__premier_programme.ads
+b__premier_programme.adb
+b__premier_programme.ali
+[RESULTING OPTIONS]
+-L/home/melyesse/Premiere_anne/tp_pim/tp/tp_gps/
+-L/home/melyesse/Premiere_anne/tp_pim/tp/tp_gps/
+-L/mnt/n7fs/ens/tp_cregut/GNAT/2021/lib/gcc/x86_64-pc-linux-gnu/10.3.1/adalib/
+-static
+-static-libgcc
+/mnt/n7fs/ens/tp_cregut/GNAT/2021/lib/gcc/x86_64-pc-linux-gnu/10.3.1/adalib/libgnat.a
+-ldl

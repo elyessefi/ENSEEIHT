@@ -1,0 +1,12 @@
+N = 90 ;
+Fe = 10000 ; 
+f0 = 1000 ;
+Te = 1/Fe ;
+Temps = 0 : Te :(N-1)*Te ;
+M = cos (2*pi*f0*Temps) ;
+xlabel(Temps) ;
+ylabel(M) ;
+plot(Temps,M) ;
+N1 = 500 ;
+Frequence = linspace(0 , Fe , N) ;
+semilogy(Frequence ,abs(fft(M,N))) ;

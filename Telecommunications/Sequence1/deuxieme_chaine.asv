@@ -1,0 +1,51 @@
+% Initialisation
+clear;
+clear all;
+clc;
+
+%Initialisation des parametres
+
+Fe = 24000;
+Te = 1/Fe;
+Rb = 3000;
+Tb = 1/Rb;
+
+%Durée symbole en nombre d’échantillons (Ts=NsTe)
+Ns=Tb/Te;
+%Nombre de bits générés
+nb_bits=100;
+%Génération de l’information binaire
+bits=randi([0,1],2,nb_bits);
+%Mapping binaire à moyenne nulle : 0->-1, 1->1
+Symboles= 4*bits-1;
+%Génération de la suite de Diracs pondérés par les symbols (suréchantillonnage)
+Suite_diracs=kron(Symboles, [1 zeros(1,Ns-1)]);
+%Génération de la réponse impulsionnelle du filtre de mise en forme (NRZ)
+h=ones(1,Ns);
+%Filtrage de mise en forme
+x=filter(h,1,Suite_diracs);
+%Affichage du signal généré
+figure ; plot(0:Te:(length(x)-1)*Te,x);
+axis([0 nb_bits-1 -1.5 1.5]);
+title("Figure 1 : Signal généré x");
+xlabel("temps en seconde");
+ylabel("signal généré x");
+
+% Calcul de la DSP du signal x
+DSP_x = (1 / length(x)) * abs(fft(x, 2 ^ nextpow2(length(x)))) .^ 2;
+
+% Affichage de la DSP du signal 
+figure;
+plot(linspace(-1, 1, length(DSP_x)), fftshift(DSP_x));
+title('Figure 2 : DSP du signal ');
+xlabel('Fréquences en Hz');
+ylabel('S_{f}(x)');
+
+
+
+
+
+%Calculer DSP
+DSP_x = Ts * sinc(pi*linespace*Ts).^2;
+
+
