@@ -1,0 +1,118 @@
+V "GNAT Lib v2021"
+A -gnatwa
+A -gnata
+P ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IO
+RV NO_LOCAL_ALLOCATORS
+RV NO_RECURSION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+
+U tableaux%b		tableaux.adb		1ace1608 NE OO PK GE IL
+W ada%s			ada.ads			ada.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+U tableaux%s		tableaux.ads		4a2e53c6 BN EE NE OO PK GE IL
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+
+D ada.ads		20210520051130 76789da1 ada%s
+D a-except.ads		20210520051127 946f3014 ada.exceptions%s
+D a-ioexce.ads		20210520051127 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20210520051128 119b8fb3 ada.streams%s
+D a-string.ads		20210520051128 90ac6797 ada.strings%s
+D a-sttebu.ads		20210520051128 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20210520051128 808c40ad ada.strings.utf_encoding%s
+D a-tags.ads		20210520051129 9eaa38c6 ada.tags%s
+D a-textio.ads		20210520051129 aef4d56d ada.text_io%s
+D a-unccon.ads		20210520051129 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20210520051131 edec285f interfaces%s
+D i-cstrea.ads		20210520051131 e53d8b8e interfaces.c_streams%s
+D system.ads		20210520051134 a2da961d system%s
+D s-crtl.ads		20210520051131 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210520051131 54135002 system.exception_table%s
+D s-ficobl.ads		20210520051131 078245e4 system.file_control_block%s
+D s-parame.ads		20210520051133 4752c4cb system.parameters%s
+D s-putima.ads		20210520051133 4e095881 system.put_images%s
+D s-secsta.ads		20210520051133 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210520051133 a7318a92 system.soft_links%s
+D s-stache.ads		20210520051133 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210520051133 472fbca8 system.standard_library%s
+D s-stoele.ads		20210520051133 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210520051133 ed88f8fb system.storage_elements%b
+D s-traent.ads		20210520051133 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210520051133 2b077493 system.unsigned_types%s
+D s-wchcon.ads		20210520051134 1b7d22d2 system.wch_con%s
+D tableaux.ads		20220617222158 4a2e53c6 tableaux%s
+D tableaux.adb		20220617211927 fe1490a3 tableaux%b
+D unchconv.ads		20210520051134 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z s b [tableaux standard 5 9 none]
+X 1 ada.ads
+16K9*Ada 20e8 29|1r6 1r34
+X 9 a-textio.ads
+58K13*Text_IO 725e16 29|1w10 1r38
+506U14*Put_Line 29|35s13 56s13 79s13 108s13
+X 28 tableaux.ads
+2+10 T_Element 9r19 25r75 29r93 34r72 39r64 42r93 51r78 56r49 29|23r75 40r93
+. 60r93 82r72 87r65 112r78
+3i5 Capacite{integer} 20r57 35r34 43r34
+5k9*tableaux 2z10 3z5 59l5 59e13 29|2b14 139l5 139t13
+6R10*T_Cellule 7r30 8c10 12e16 29|46r24 69r24
+7P10*T_Tableau(6R10) 11r19 15r42 19r35 22r41 25r36 29r41 34r41 39r40 42r41
+. 47r43 51r54 57r49 29|4r41 9r35 18r40 23r36 25r15 40r41 41r15 60r41 61r11
+. 82r41 87r41 98r45 112r54 129r50
+9*9 Element{2+10} 29|37r24 47m21 70m21 91r31 117r32 134m37
+10i9 Taille{integer} 29|48m21 65m29 71m21 102m29 123m37
+11p9 Suivant{7P10} 29|14r47 31r32 44m34 50m25 52m25 52r48 67m33 73m25 75m25
+. 94r48 104m35 106r36 121m54 122r61 123r66 135r50
+15U15*Initialiser 15<28 29|4b15 7l9 7t20
+15p28 Tableau{7P10} 16r17 16r43 29|4b27 6m9
+19V14*Taille{integer} 16s36 19>22 20r17 20r40 35s16 36s35 43s16 48s17 48s35
+. 29|9b14 14s28 16l13 16t19 20s42 48s31 65s39 71s31 84s29 102s39 122s24 122s42
+. 123s47
+19p22 Tableau{7P10} 29|9b22 11r16 14r35
+22V14*Indice_Valide{boolean} 22>29 22>52 26s16 30s16 29|18b14 21l9 21t22
+. 27s12 43s12 63s12 100s12
+22p29 Tableau{7P10} 29|18b28 20r49
+22i52 Indice{integer} 29|18b51 20r17 20r32
+25V14*Element{2+10} 25>23 25>47 31s17 36s17 29|23b14 38l10 38t17
+25p23 Tableau{7P10} 26r30 29|23b23 27r26 29r20
+25i47 Indice{integer} 26r39 29|23b47 27r35 30r24
+29U15*Changer 29=24 29>52 29>73 29|40b15 44s13 58l9 58t16
+29p24 Tableau{7P10} 30r30 31r26 29|40b24 43r26 44r22 48r38 49r16 52r36 54m13
+29i52 Indice{integer} 30r39 31r35 29|40b52 43r35 43r47 44r42 45r15
+29*73 Nouvel_Element{2+10} 31r45 29|40b73 44r53 47r32
+34U15*Ajouter 34=24 34>52 29|82b15 85l13 85t20
+34p24 Tableau{7P10} 35r23 36r26 36r42 29|82b24 84m21 84r36
+34*52 Nouvel_Element{2+10} 36r54 29|82b52 84r48
+39V14*Est_Present{boolean} 39>27 39>51 52s21 29|87b15 94s24 96l13 96t24
+39p27 Tableau{7P10} 29|87b28 89r16 91r19 94r36
+39*51 Element{2+10} 29|87b52 91r41 94r57
+42U15*Inserer 42=24 42>52 42>73 29|60b15 67s13 81l9 81t16 84s13
+42p24 Tableau{7P10} 43r23 29|60b24 63r26 64r16 65r17 65r46 67r21 71r38 72r16
+. 75r36 77m13
+42i52 Indice{integer} 29|60b52 63r35 63r49 67r41 68r15
+42*73 Nouvel_Element{2+10} 29|60b73 67r53 70r32
+47U15*Supprimer 47=26 47>54 29|98b17 104s13 110l11 110t20 118s21
+47p26 Tableau{7P10} 48r24 48r42 29|98b28 100r26 101r16 102r17 102r46 104r23
+. 106m13 106r24
+47i54 Indice{integer} 29|98b56 100r34 100r46 104r44 105r15
+51U15*Supprimer_Occurences 51=37 51>65 29|112b15 119s21 121s21 127l13 127t33
+51p37 Tableau{7P10} 52r33 29|112b37 114r16 117r20 118m31 119m42 121r42 122r31
+. 122r49 123r25 123r54
+51*65 Element{2+10} 52r42 29|112b65 117r42 119r51 121r63
+56U24 Traiter 56=32 29|134s17
+56*32 Element{2+10}
+57u15*Appliquer_Sur_Chaque 57>36 29|129b15 135s17 137l17 137t37
+57p36 Tableau{7P10} 29|129b37 131r16 134r25 135r38
+X 29 tableaux.adb
+24i9 i{integer} 28m13 30r19 32m17 32r20
+25p9 tab{28|7P10} 29m13 31m17 31r24 37r16
+41p9 tab{28|7P10} 46m13 47r13 48r13 50r17 52r17 54r24
+61p5 tab{28|7P10} 69m13 70r13 71r13 73r17 75r17 77r24
+

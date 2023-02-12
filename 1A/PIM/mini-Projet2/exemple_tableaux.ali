@@ -1,0 +1,103 @@
+V "GNAT Lib v2021"
+M P W=b
+A -gnatwa
+A -gnata
+P ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IO
+RV NO_LOCAL_ALLOCATORS
+RV NO_RECURSION
+RV NO_STANDARD_ALLOCATORS_AFTER_ELABORATION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+
+U exemple_tableaux%b	exemple_tableaux.adb	969bf3ee NE OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z system.assertions%s	s-assert.adb		s-assert.ali
+W tableaux%s		tableaux.adb		tableaux.ali
+
+D ada.ads		20210520051130 76789da1 ada%s
+D a-assert.ads		20210520051127 a718b65c ada.assertions%s
+D a-except.ads		20210520051127 946f3014 ada.exceptions%s
+D a-inteio.ads		20210520051127 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20210520051127 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20210520051128 119b8fb3 ada.streams%s
+D a-string.ads		20210520051128 90ac6797 ada.strings%s
+D a-sttebu.ads		20210520051128 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20210520051128 808c40ad ada.strings.utf_encoding%s
+D a-tags.ads		20210520051129 9eaa38c6 ada.tags%s
+D a-textio.ads		20210520051129 aef4d56d ada.text_io%s
+D a-tiinio.ads		20210520051129 390edddb ada.text_io.integer_io%s
+D a-unccon.ads		20210520051129 0e9b276f ada.unchecked_conversion%s
+D exemple_tableaux.adb	20220617222842 840afce1 exemple_tableaux%b
+D interfac.ads		20210520051131 edec285f interfaces%s
+D i-cstrea.ads		20210520051131 e53d8b8e interfaces.c_streams%s
+D system.ads		20210520051134 a2da961d system%s
+D s-assert.ads		20210520051131 6a49a4e4 system.assertions%s
+D s-crtl.ads		20210520051131 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210520051131 54135002 system.exception_table%s
+D s-ficobl.ads		20210520051131 078245e4 system.file_control_block%s
+D s-parame.ads		20210520051133 4752c4cb system.parameters%s
+D s-putima.ads		20210520051133 4e095881 system.put_images%s
+D s-secsta.ads		20210520051133 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210520051133 a7318a92 system.soft_links%s
+D s-stache.ads		20210520051133 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210520051133 472fbca8 system.standard_library%s
+D s-stoele.ads		20210520051133 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210520051133 ed88f8fb system.storage_elements%b
+D s-traent.ads		20210520051133 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210520051133 2b077493 system.unsigned_types%s
+D s-wchcon.ads		20210520051134 1b7d22d2 system.wch_con%s
+D tableaux.ads		20220617222158 4a2e53c6 tableaux%s
+D tableaux.adb		20220617211927 fe1490a3 tableaux%b
+D unchconv.ads		20210520051134 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z b b [exemple_tableaux standard 5 11 none]
+G r i none [exemple_tableaux standard 5 11 none] [tableaux standard 5 9 none]
+X 1 ada.ads
+16K9*Ada 20e8 14|2r6 2r33 3r6 3r32
+X 4 a-inteio.ads
+18K13*Integer_Text_IO[12|46] 14|3w10 3r36
+X 11 a-textio.ads
+58K13*Text_IO 725e16 14|2w10 2r37
+262U14*New_Line 14|48s5 57s5 61s5
+463U14*Put 14|16s9 22s17
+506U14*Put_Line 14|25s9 42s5 45s5 51s5 54s5 58s5 64s5 69s5 74s5
+X 12 a-tiinio.ads
+80U14*Put 14|20s13[4|18]
+X 14 exemple_tableaux.adb
+5U11*exemple_tableaux 5b11 77l5 77t21
+7K13 Tableau_Integer[33|5] 8r9 11r33 13r15 36r11
+11U15 toString 11b15 11>24 26l9 26t17 44s5 47s5 53s5 56s5 60s5 66s5 71s5
+. 76s5
+11p24 tab{33|7P10[7]} 15r17
+12i9 n{integer} 19m13 20r17
+13p9 tab1{33|7P10[7]} 15m9 18r28 19r26 21r26
+18i13 i{integer} 19r32 21r16
+28U15 Double 28b15 28=22 31l9 31t15 34r34
+28i22 Element{integer} 30m9 30r20 30r30
+33U15 Double[33|57] 75s5
+36p5 tab{33|7P10[7]} 39m17 39r17 43m13 43r13 44r14 46m13 46r13 47r14 52m13
+. 52r13 53r14 55m13 55r13 56r14 59m13 59r13 60r14 65m15 65r15 66r14 70m26
+. 70r26 71r14 75r12 76r14
+X 33 tableaux.ads
+2+10 T_Element 14|7r45
+3i5 Capacite{integer} 14|7r67
+5k9*tableaux 14|1w6 7r36 33|59e13
+6R10 T_Cellule
+7P10 T_Tableau(6R10[14|7]) 14|11r49[7] 13r31[7] 36r27[7]
+15U15 Initialiser 14|39s5[7]
+19V14 Taille{integer} 14|18s21[7] 21s19[7]
+25V14 Element{integer} 14|19s18[7]
+34U15 Ajouter 14|52s5[7] 55s5[7] 59s5[7]
+42U15 Inserer 14|43s5[7] 46s5[7]
+47U15 Supprimer 14|65s5[7]
+51U15 Supprimer_Occurences 14|70s5[7]
+57u15 Appliquer_Sur_Chaque 14|34r13[7]
+

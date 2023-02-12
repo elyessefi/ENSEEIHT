@@ -1,0 +1,91 @@
+V "GNAT Lib v2021"
+M P W=b
+A -gnatwa
+A -gnata
+P ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_LOCAL_ALLOCATORS
+RV NO_RECURSION
+RV NO_STANDARD_ALLOCATORS_AFTER_ELABORATION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+
+U test_tableau%b	test_tableau.adb	05a4927a NE OO SU IL
+W ada%s			ada.ads			ada.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z system.assertions%s	s-assert.adb		s-assert.ali
+W tableaux%s		tableaux.adb		tableaux.ali
+
+D ada.ads		20210520051130 76789da1 ada%s
+D a-assert.ads		20210520051127 a718b65c ada.assertions%s
+D a-except.ads		20210520051127 946f3014 ada.exceptions%s
+D a-ioexce.ads		20210520051127 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20210520051128 119b8fb3 ada.streams%s
+D a-string.ads		20210520051128 90ac6797 ada.strings%s
+D a-sttebu.ads		20210520051128 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20210520051128 808c40ad ada.strings.utf_encoding%s
+D a-tags.ads		20210520051129 9eaa38c6 ada.tags%s
+D a-textio.ads		20210520051129 aef4d56d ada.text_io%s
+D a-unccon.ads		20210520051129 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20210520051131 edec285f interfaces%s
+D i-cstrea.ads		20210520051131 e53d8b8e interfaces.c_streams%s
+D system.ads		20210520051134 a2da961d system%s
+D s-assert.ads		20210520051131 6a49a4e4 system.assertions%s
+D s-crtl.ads		20210520051131 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210520051131 54135002 system.exception_table%s
+D s-ficobl.ads		20210520051131 078245e4 system.file_control_block%s
+D s-parame.ads		20210520051133 4752c4cb system.parameters%s
+D s-putima.ads		20210520051133 4e095881 system.put_images%s
+D s-secsta.ads		20210520051133 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210520051133 a7318a92 system.soft_links%s
+D s-stache.ads		20210520051133 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210520051133 472fbca8 system.standard_library%s
+D s-stoele.ads		20210520051133 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210520051133 ed88f8fb system.storage_elements%b
+D s-traent.ads		20210520051133 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210520051133 2b077493 system.unsigned_types%s
+D s-wchcon.ads		20210520051134 1b7d22d2 system.wch_con%s
+D tableaux.ads		20220617210737 0667118f tableaux%s
+D tableaux.adb		20220617211927 fe1490a3 tableaux%b
+D test_tableau.adb	20220617215239 ad375698 test_tableau%b
+D unchconv.ads		20210520051134 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z b b [test_tableau standard 5 11 none]
+G r i none [test_tableau standard 5 11 none] [tableaux standard 5 9 none]
+X 1 ada.ads
+16K9*Ada 20e8 32|1r6 1r33
+X 10 a-textio.ads
+58K13*Text_IO 725e16 32|1w10 1r37
+506U14*Put_Line 32|34s5 40s5 46s5 53s5 59s5 62s5
+X 30 tableaux.ads
+2+10 T_Element 32|8r31
+3i5 Capacite{integer} 32|8r51
+5k9*tableaux 60e13 32|3w6 8r21
+6R10 T_Cellule
+7P10 T_Tableau(6R10[32|7]) 32|20r25[7]
+15U15 Initialiser 32|23s5[7]
+19V14 Taille{integer} 32|39s20[7] 45s20[7] 51s20[7]
+26V14 Element{float} 32|28s20[7] 30s20[7] 32s20[7] 33s20[7] 38s20[7] 57s20[7]
+. 58s20[7]
+35U15 Ajouter 32|37s5[7]
+40V14 Est_Present{boolean} 32|27s20[7] 44s24[7] 50s24[7]
+43U15 Inserer 32|26s5[7] 29s5[7] 31s5[7] 52s5[7]
+48U15 Supprimer 32|43s5[7]
+52U15 Supprimer_Occurences 32|49s5[7]
+58u15 Appliquer_Sur_Chaque 32|18r13[7]
+X 32 test_tableau.adb
+5U11*test_tableau 5b11 63l5 63t17
+7K17 Tableau_Reels[30|5] 9r13 20r11
+11U11 Double 11b11 11=18 15l9 15t15 18r34
+11f18 Element{float} 13m9 13r20 13r30
+17U15 Double[30|58] 56s5
+20p5 tab{30|7P10[7]} 23m17 23r17 26m13 26r13 27r32 28r28 29m13 29r13 30r28
+. 31m13 31r13 32r28 33r28 37m13 37r13 38r28 39r27 43m15 43r15 44r36 45r27
+. 49m26 49r26 50r36 51r27 52m13 52r13 56r12 57r28 58r28
+
