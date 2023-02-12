@@ -1,0 +1,136 @@
+V "GNAT Lib v2021"
+A -gnatwa
+A -gnata
+P ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_RECURSION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_DEALLOCATION
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+
+U arbre_binaire%b	arbre_binaire.adb	5f8dcfc7 NE OO PK IL
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W ada.unchecked_deallocation%s
+W arbre_exceptions%s	arbre_exceptions.ads	arbre_exceptions.ali
+Z system.assertions%s	s-assert.adb		s-assert.ali
+
+U arbre_binaire%s	arbre_binaire.ads	646706eb EE NE OO PK IL
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+
+D ada.ads		20210520051130 76789da1 ada%s
+D a-assert.ads		20210520051127 a718b65c ada.assertions%s
+D a-except.ads		20210520051127 946f3014 ada.exceptions%s
+D a-inteio.ads		20210520051127 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20210520051127 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20210520051128 119b8fb3 ada.streams%s
+D a-string.ads		20210520051128 90ac6797 ada.strings%s
+D a-sttebu.ads		20210520051128 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20210520051128 808c40ad ada.strings.utf_encoding%s
+D a-tags.ads		20210520051129 9eaa38c6 ada.tags%s
+D a-textio.ads		20210520051129 aef4d56d ada.text_io%s
+D a-tiinio.ads		20210520051129 390edddb ada.text_io.integer_io%s
+D a-unccon.ads		20210520051129 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20210520051129 c3a8ac65 ada.unchecked_deallocation%s
+D arbre_binaire.ads	20220617191317 646706eb arbre_binaire%s
+D arbre_binaire.adb	20220617191420 9af96905 arbre_binaire%b
+D arbre_exceptions.ads	20220617185941 3a045085 arbre_exceptions%s
+D interfac.ads		20210520051131 edec285f interfaces%s
+D i-cstrea.ads		20210520051131 e53d8b8e interfaces.c_streams%s
+D system.ads		20210520051134 a2da961d system%s
+D s-assert.ads		20210520051131 6a49a4e4 system.assertions%s
+D s-crtl.ads		20210520051131 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210520051131 54135002 system.exception_table%s
+D s-ficobl.ads		20210520051131 078245e4 system.file_control_block%s
+D s-parame.ads		20210520051133 4752c4cb system.parameters%s
+D s-putima.ads		20210520051133 4e095881 system.put_images%s
+D s-secsta.ads		20210520051133 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210520051133 a7318a92 system.soft_links%s
+D s-stache.ads		20210520051133 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210520051133 472fbca8 system.standard_library%s
+D s-stoele.ads		20210520051133 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210520051133 ed88f8fb system.storage_elements%b
+D s-traent.ads		20210520051133 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210520051133 2b077493 system.unsigned_types%s
+D s-wchcon.ads		20210520051134 1b7d22d2 system.wch_con%s
+D unchconv.ads		20210520051134 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z s b [initialiser arbre_binaire 14 15 none]
+G c Z s b [est_vide arbre_binaire 18 14 none]
+G c Z s b [cle arbre_binaire 21 14 none]
+G c Z s b [donnee arbre_binaire 24 14 none]
+G c Z s b [creer arbre_binaire 27 14 none]
+G c Z s b [est_feuille arbre_binaire 31 14 none]
+G c Z s b [vider arbre_binaire 34 15 none]
+G c Z s b [fils_gauche arbre_binaire 38 14 none]
+G c Z s b [fils_droite arbre_binaire 42 14 none]
+G c Z s b [supprimer_fils_gauche arbre_binaire 46 15 none]
+G c Z s b [supprimer_fils_droite arbre_binaire 50 15 none]
+G c Z s s [t_celluleIP arbre_binaire 6 10 none]
+G c Z b b [free arbre_binaire 8 15 none]
+X 1 ada.ads
+16K9*Ada 20e8 16|1r6 2r6 2r24 3r6 3r32 9r21
+X 4 a-inteio.ads
+18K13*Integer_Text_IO[12|46] 16|3w10 3r36
+X 11 a-textio.ads
+58K13*Text_IO 725e16 16|2w10 2r28
+X 14 a-uncdea.ads
+17+9 Object 16|9r49
+18P9 Name(17+9) 16|9r70
+20u15*Unchecked_Deallocation 16|1w10 9r25
+X 15 arbre_binaire.ads
+1K9*arbre_binaire 53l5 53e18 16|6b14 98l5 98t18
+3M10*T_Octet 7r15 21r46 27r29 16|21r45 39r29
+4R10*T_Cellule 5r28 6c10 11e15 16|9r59 43r24
+5P10*T_Arbre(4R10) 9r23 10r23 14r39 18r34 21r30 24r32 27r77 27r104 27r120
+. 31r37 34r36 38r37 38r53 42r37 42r53 46r48 50r48 16|9r78 11r39 16r34 21r29
+. 30r32 39r77 39r104 39r120 40r17 51r37 56r36 67r37 67r53 76r37 76r53 85r48
+. 92r48
+7m9*Cle{3M10} 16|26r34 44m21
+8i9*Donnee{integer} 16|35r26 45m21
+9p9*fils_gauche{5P10} 16|46m21 53r40 61m29 72r28 87r34 88m27
+10p9*fils_droite{5P10} 16|47m21 53r76 62m29 81r28 94r34 95m27
+14U15*Initialiser 14<27 16|11b15 14l13 14t24 42s11
+14p27 Arbre{5P10} 15r26 16|11b27 13m13
+18V14*Est_Vide{boolean} 15s17 18>23 28s21 35s17 39s23 43s20 47s20 51s20 16|16b14
+. 19l13 19t21 23s16 32s10 53s21 53s57 58s14 69s11 78s11 87s15 94s15
+18p23 Arbre{5P10} 16|16b23 18r20
+21V14*Cle{3M10} 21>19 16|21b14 28l13 28t16
+21p19 Arbre{5P10} 16|21b18 23r25 26r24
+24V14*Donnee{integer} 24>21 16|30b14 37l9 37t15
+24p21 Arbre{5P10} 16|30b21 32r19 35r16
+27V14*Creer{5P10} 27>20 27>38 27>59 27>86 28r30 16|39b14 49l13 49t18
+27m20 Cle{3M10} 16|39b20 44r28
+27i38 Donnee{integer} 16|39b38 45r31
+27p59 Arbre_Gauche{5P10} 16|39b59 46r36
+27p86 Arbre_Droite{5P10} 16|39b86 47r36
+31V14*Est_Feuille{boolean} 31>26 16|51b14 54l13 54t24
+31p26 Arbre{5P10} 16|51b26 53r30 53r66
+34U15*Vider 34=21 16|56b15 61s13 62s13 65l9 65t14 88s11 95s11
+34p21 Arbre{5P10} 35r26 16|56b21 58r23 61r19 62r19 63m18
+38V14*Fils_Gauche{5P10} 38>26 16|67b14 74l10 74t21
+38p26 Arbre{5P10} 39r32 16|67b26 69r20 72r18
+42V14*Fils_Droite{5P10} 42>26 16|76b14 83l10 83t21
+42p26 Arbre{5P10} 43r29 16|76b26 78r20 81r18
+46U15*Supprimer_Fils_Gauche 46>37 16|85b15 90l9 90t30
+46p37 Arbre{5P10} 47r29 16|85b37 87r24 88r17
+50U15*Supprimer_Fils_Droite 50>37 16|92b15 97l9 97t30
+50p37 Arbre{5P10} 51r29 16|92b37 94r24 95r17
+X 16 arbre_binaire.adb
+8U15 Free[14|20] 63s13
+40p9 Arbre{15|5P10} 42m23 42r23 43m11 44r11 45r11 46r11 47r11 48r18
+X 17 arbre_exceptions.ads
+1K9*arbre_exceptions 16|4w6 4r29 17|5e21
+3X5*arbre_vide_Exception 16|24r23 33r15
+

@@ -1,0 +1,366 @@
+V "GNAT Lib v2021"
+A -gnatwa
+A -gnata
+P SS ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_LOCAL_ALLOCATORS
+RV NO_RECURSION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_STREAMS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+
+U compression%b		compression.adb		2db270df NE OO PK IL
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.io_exceptions%s	a-ioexce.ads		a-ioexce.ali
+W ada.streams%s		a-stream.adb		a-stream.ali
+W ada.streams.stream_io%s  a-ststio.adb		a-ststio.ali
+W ada.strings%s		a-string.ads		a-string.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W arbre_binaire%s	arbre_binaire.adb	arbre_binaire.ali
+W arbre_exceptions%s	arbre_exceptions.ads	arbre_exceptions.ali
+W lca%s			lca.adb			lca.ali  ED
+Z system.assertions%s	s-assert.adb		s-assert.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.concat_3%s	s-conca3.adb		s-conca3.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.stream_attributes%s  s-stratt.adb	s-stratt.ali
+
+U compression%s		compression.ads		cdd02b0c EE NE OO PK IL
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.strings%s		a-string.ads		a-string.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+Z ada.unchecked_deallocation%s
+W arbre_binaire%s	arbre_binaire.adb	arbre_binaire.ali
+W lca%s			lca.adb			lca.ali
+Z sda_exceptions%s	sda_exceptions.ads	sda_exceptions.ali
+Z system.assertions%s	s-assert.adb		s-assert.ali
+
+D ada.ads		20210520051130 76789da1 ada%s
+D a-assert.ads		20210520051127 a718b65c ada.assertions%s
+D a-charac.ads		20210520051127 2d3ec45b ada.characters%s
+D a-chlat1.ads		20210520051127 66457d31 ada.characters.latin_1%s
+D a-except.ads		20210520051127 946f3014 ada.exceptions%s
+D a-finali.ads		20210520051127 bf4f806b ada.finalization%s
+D a-inteio.ads		20210520051127 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20210520051127 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20210520051128 119b8fb3 ada.streams%s
+D a-ststio.ads		20210520051128 d6d358e8 ada.streams.stream_io%s
+D a-string.ads		20210520051128 90ac6797 ada.strings%s
+D a-strmap.ads		20210520051128 5a88892a ada.strings.maps%s
+D a-sttebu.ads		20210520051128 18209c64 ada.strings.text_buffers%s
+D a-strunb.ads		20210520051128 03325227 ada.strings.unbounded%s
+D a-stuten.ads		20210520051128 808c40ad ada.strings.utf_encoding%s
+D a-tags.ads		20210520051129 9eaa38c6 ada.tags%s
+D a-textio.ads		20210520051129 aef4d56d ada.text_io%s
+D a-tiinio.ads		20210520051129 390edddb ada.text_io.integer_io%s
+D a-unccon.ads		20210520051129 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20210520051129 c3a8ac65 ada.unchecked_deallocation%s
+D arbre_binaire.ads	20220617191317 646706eb arbre_binaire%s
+D arbre_exceptions.ads	20220617185941 3a045085 arbre_exceptions%s
+D compression.ads	20220617190615 33f628e8 compression%s
+D compression.adb	20220617191207 b0aa1013 compression%b
+D interfac.ads		20210520051131 edec285f interfaces%s
+D i-cstrea.ads		20210520051131 e53d8b8e interfaces.c_streams%s
+D lca.ads		20220207010549 99735728 lca%s
+D lca.adb		20220207010521 8b0660e6 lca%b
+D sda_exceptions.ads	20220207005311 58fab764 sda_exceptions%s
+D system.ads		20210520051134 a2da961d system%s
+D s-assert.ads		20210520051131 6a49a4e4 system.assertions%s
+D s-atocou.ads		20210520051131 b45c2d8d system.atomic_counters%s
+D s-conca2.ads		20210520051131 02a0d7d0 system.concat_2%s
+D s-conca3.ads		20210520051131 0b705ca5 system.concat_3%s
+D s-crtl.ads		20210520051131 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210520051131 54135002 system.exception_table%s
+D s-ficobl.ads		20210520051131 078245e4 system.file_control_block%s
+D s-finroo.ads		20210520051131 4ff27390 system.finalization_root%s
+D s-parame.ads		20210520051133 4752c4cb system.parameters%s
+D s-putima.ads		20210520051133 4e095881 system.put_images%s
+D s-secsta.ads		20210520051133 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210520051133 a7318a92 system.soft_links%s
+D s-stache.ads		20210520051133 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210520051133 472fbca8 system.standard_library%s
+D s-stoele.ads		20210520051133 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210520051133 ed88f8fb system.storage_elements%b
+D s-stratt.ads		20210520051133 7bdda3fa system.stream_attributes%s
+D s-traent.ads		20210520051133 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210520051133 2b077493 system.unsigned_types%s
+D s-wchcon.ads		20210520051134 1b7d22d2 system.wch_con%s
+D unchconv.ads		20210520051134 ca2f9e18 unchecked_conversion%s
+G a e
+G c s s s [s compression 6 1 none]
+G c Z s s [initialiser compression__oct_frequence 18 19 9_5]
+G c Z s s [est_vide compression__oct_frequence 23 18 9_5]
+G c Z s s [taille compression__oct_frequence 27 18 9_5]
+G c Z s s [enregistrer compression__oct_frequence 35 19 9_5]
+G c Z s s [supprimer compression__oct_frequence 43 19 9_5]
+G c Z s s [cle_presente compression__oct_frequence 49 18 9_5]
+G c Z s s [s_cle compression__oct_frequence 52 14 9_5]
+G c Z s s [position_cle compression__oct_frequence 55 14 9_5]
+G c Z s s [la_donnee compression__oct_frequence 59 18 9_5]
+G c Z s s [vider compression__oct_frequence 63 19 9_5]
+G c Z s s [t_celluleIP compression__oct_frequence 11 14 9_5]
+G c Z s s [free compression__oct_frequence 6 19 9_5]
+G c Z s s [initialiser compression__t_arb 18 19 12_5]
+G c Z s s [est_vide compression__t_arb 23 18 12_5]
+G c Z s s [taille compression__t_arb 27 18 12_5]
+G c Z s s [enregistrer compression__t_arb 35 19 12_5]
+G c Z s s [supprimer compression__t_arb 43 19 12_5]
+G c Z s s [cle_presente compression__t_arb 49 18 12_5]
+G c Z s s [s_cle compression__t_arb 52 14 12_5]
+G c Z s s [position_cle compression__t_arb 55 14 12_5]
+G c Z s s [la_donnee compression__t_arb 59 18 12_5]
+G c Z s s [vider compression__t_arb 63 19 12_5]
+G c Z s s [t_celluleIP compression__t_arb 11 14 12_5]
+G c Z s s [free compression__t_arb 6 19 12_5]
+G c Z s s [initialiser compression__bi_lca 18 19 15_5]
+G c Z s s [est_vide compression__bi_lca 23 18 15_5]
+G c Z s s [taille compression__bi_lca 27 18 15_5]
+G c Z s s [enregistrer compression__bi_lca 35 19 15_5]
+G c Z s s [supprimer compression__bi_lca 43 19 15_5]
+G c Z s s [cle_presente compression__bi_lca 49 18 15_5]
+G c Z s s [s_cle compression__bi_lca 52 14 15_5]
+G c Z s s [position_cle compression__bi_lca 55 14 15_5]
+G c Z s s [la_donnee compression__bi_lca 59 18 15_5]
+G c Z s s [vider compression__bi_lca 63 19 15_5]
+G c Z s s [t_celluleIP compression__bi_lca 11 14 15_5]
+G c Z s s [free compression__bi_lca 6 19 15_5]
+G c Z s s [initialiser compression__code_lca 18 19 18_5]
+G c Z s s [est_vide compression__code_lca 23 18 18_5]
+G c Z s s [taille compression__code_lca 27 18 18_5]
+G c Z s s [enregistrer compression__code_lca 35 19 18_5]
+G c Z s s [supprimer compression__code_lca 43 19 18_5]
+G c Z s s [cle_presente compression__code_lca 49 18 18_5]
+G c Z s s [s_cle compression__code_lca 52 14 18_5]
+G c Z s s [position_cle compression__code_lca 55 14 18_5]
+G c Z s s [la_donnee compression__code_lca 59 18 18_5]
+G c Z s s [vider compression__code_lca 63 19 18_5]
+G c Z s s [t_celluleIP compression__code_lca 11 14 18_5]
+G c Z s s [free compression__code_lca 6 19 18_5]
+G c Z s b [codage_huffman compression 24 14 none]
+G c Z s b [cle_premier_minimum compression 27 13 none]
+G c Z s b [cle_deuxiem_minimum compression 31 13 none]
+G c Z s b [creer_arbre compression 35 13 none]
+G c Z s b [arbre_huffman compression 38 13 none]
+G c Z s b [octet_binaire compression 42 14 none]
+G c Z s b [parcours_infixe compression 46 15 none]
+G c Z s b [afficher_huffman compression 49 15 none]
+G c Z s b [compresser compression 52 15 none]
+G c Z s b [copie compression 55 13 none]
+G r i none [s compression 6 1 none] [lca standard 7 9 none]
+G r c none [codage_huffman compression 24 14 none] [est_vide arbre_binaire 18 14 none]
+G r c none [codage_huffman compression 24 14 none] [est_feuille arbre_binaire 31 14 none]
+G r c none [codage_huffman compression 24 14 none] [cle arbre_binaire 21 14 none]
+G r c none [cle_premier_minimum compression 27 13 none] [donnee arbre_binaire 24 14 none]
+G r c none [cle_deuxiem_minimum compression 31 13 none] [donnee arbre_binaire 24 14 none]
+G r c none [creer_arbre compression 35 13 none] [initialiser arbre_binaire 14 15 none]
+G r c none [creer_arbre compression 35 13 none] [donnee arbre_binaire 24 14 none]
+G r c none [creer_arbre compression 35 13 none] [creer arbre_binaire 27 14 none]
+G r c none [arbre_huffman compression 38 13 none] [initialiser arbre_binaire 14 15 none]
+G r c none [arbre_huffman compression 38 13 none] [donnee arbre_binaire 24 14 none]
+G r c none [arbre_huffman compression 38 13 none] [creer arbre_binaire 27 14 none]
+G r c none [parcours_infixe compression 46 15 none] [est_feuille arbre_binaire 31 14 none]
+G r c none [afficher_huffman compression 49 15 none] [donnee arbre_binaire 24 14 none]
+G r c none [afficher_huffman compression 49 15 none] [est_feuille arbre_binaire 31 14 none]
+G r c none [afficher_huffman compression 49 15 none] [cle arbre_binaire 21 14 none]
+G r c none [compresser compression 52 15 none] [creer arbre_binaire 27 14 none]
+G r c none [compresser compression 52 15 none] [initialiser arbre_binaire 14 15 none]
+G r c none [compresser compression 52 15 none] [donnee arbre_binaire 24 14 none]
+G r c none [compresser compression 52 15 none] [est_vide arbre_binaire 18 14 none]
+G r c none [compresser compression 52 15 none] [est_feuille arbre_binaire 31 14 none]
+G r c none [compresser compression 52 15 none] [cle arbre_binaire 21 14 none]
+X 1 ada.ads
+16K9*Ada 20e8 23|1r6 1r33 24|1r6 1r33 2r6 2r24 3r6 3r33 4r6 4r34 8r6 8r29
+. 173r18
+X 7 a-inteio.ads
+18K13*Integer_Text_IO[18|46] 24|3w10 3r37
+X 8 a-ioexce.ads
+18K13*IO_Exceptions 30e22 24|8w10 8r33
+X 9 a-stream.ads
+36K13*Streams 87e16 24|4r10 4r38 173r22
+X 10 a-ststio.ads
+39K21*Stream_IO 224e26 24|4w18 4r46 173r30
+42P9*Stream_Access(9|39R9) 24|174r13
+44P9*File_Type 24|173r40
+47n23*In_File{47E9} 24|183r13 225r13
+47n32*Out_File{47E9} 24|223r21
+68U14*Create 24|223s6
+74U14*Open 24|183s5 225s6
+80U14*Close 24|195s5 314s6 315s6
+90V13*End_Of_File{boolean} 24|186s15 256s16
+92V13*Stream{42P9} 24|184s11 224s11 226s14
+X 11 a-string.ads
+16K13*Strings 35e16 23|1r10 1r37 24|1r10 1r37
+X 14 a-strunb.ads
+83K21*Unbounded 765e26 23|1w18 1r45 24|1w18 1r45
+88R9*Unbounded_String<6|43R9> 744e15 23|52r35 24|172r34
+117V13*To_String{string} 24|183s22 223s31 225s21
+X 17 a-textio.ads
+58K13*Text_IO 725e16 24|2w10 2r28
+262U14*New_Line 24|159s19 161s11 311s8 323s8 326s8 340s10
+390U14*Put 24|141s15 143s15 322s8 322s40
+463U14*Put 24|145s13 149s9 149s31 150s31 153s13 155s13 157s13 332s13 334s13
+. 336s13 338s10
+X 18 a-tiinio.ads
+80U14*Put 24|115s13[7|18] 149s21[7|18] 150s9[7|18] 322s18[7|18]
+X 21 arbre_binaire.ads
+1K9*arbre_binaire 53e18 23|3w6 3r26 24|6w6 6r26
+3M10*T_Octet 23|9r47 18r42 24|175r19 187r18 229r6 229r23 232r9 234r11 246r27
+. 249r11 257r18 261r34 265r11 270r34 279r31 284r8 291r8 299r31 308r8
+5P10*T_Arbre(4R10) 23|12r58 24r40 38r56 46r43 49r43 24|19r40 81r18 100r59
+. 119r48 132r50 178r14
+9p9*fils_gauche{5P10} 24|31r35 125r41 164r38 324r35
+10p9*fils_droite{5P10} 24|34r35 126r41 166r38 325r35
+14U15*Initialiser 24|85s10 209s6
+18V14*Est_Vide{boolean} 24|24s11
+21V14*Cle{3M10} 24|27s37 152s14 154s17 157s38 330s19
+24V14*Donnee{integer} 24|55s15 55s42 71s14 71s41 93s21 93s71 150s13 322s22
+27V14*Creer{5P10} 24|94s19 202s36
+31V14*Est_Feuille{boolean} 24|26s14 121s16 151s12
+X 22 arbre_exceptions.ads
+1K9*arbre_exceptions 5e21 24|7w6 7r29
+3X5*arbre_vide_Exception 24|25r16
+X 23 compression.ads
+6K9*compression 57l5 57e16 24|10b14 345l5 345t16
+9K13*Oct_frequence[27|7] 10r9 24|12r9 177r11 189r11 191r11 194r5 199r15 201r17
+. 202r48 203r8
+12K13*T_arb[27|7] 13r9 27r42 28r24 31r42 32r24 35r34 35r54 38r36 39r24 24|13r9
+. 50r43 62r44 78r36 78r56 79r16 100r39 179r8 202r8 329r20
+15K13*Bi_LCA[27|7] 16r9 18r64 24r63 42r38 43r24 46r65 49r67 55r28 55r49 24|14r9
+. 19r62 20r16 23r8 29r10 32r10 38r29 38r50 39r15 43r22 44r12 44r42 110r38
+. 119r70 132r74 134r23 136r9 137r9 162r11 180r40 213r6 216r6 240r6 244r19
+. 246r35 258r30 261r42 267r19 268r32 270r42 276r26 279r39 296r13 297r26 299r39
+18K13*Code_LCA[27|7] 19r9 24r91 24|15r9 19r90 27r10 181r21 214r6 217r6 229r31
+. 233r12 258r44 261r59 268r46 270r59 276r40 279r56 296r27 297r40 299r56 339r24
+24U14*Codage_Huffman 24>29 24=50 24=77 24|19b15 31s10 34s10 36l9 36t23 215s6
+. 218s6
+24p29 Arbre{21|5P10} 24|19b30 24r20 26r26 27r41 31r25 34r25
+24p50 Bit{27|10P14[15]} 24|19b49 27r49 29m29 29r41 30r24 32m29 32r41 33r24
+24p77 Code{27|10P14[18]} 24|19b76 27m31 31m53 34m54
+27V13*Cle_Premier_Minimum{integer} 27>33 24|50b14 60l10 60t29 65s12 71s82
+. 88s20 93s42 94s49
+27p33 Sda{27|10P14[12]} 28r39 24|50b34 54r28 55r32 55r59
+31V13*Cle_Deuxiem_Minimum{integer} 31>33 24|62b15 76l10 76t29 88s54 93s92
+. 94s89
+31p33 Sda{27|10P14[12]} 32r39 24|62b35 65r32 70r28 71r31 71r58 71r102
+35V13*Creer_Arbre{27|10P14[12]} 35>25 24|78b15 97l11 97t22 105s33
+35p25 Sda{27|10P14[12]} 24|78b27 87r29 88r40 88r74 90r42 93r38 93r62 93r88
+. 93r112 94r45 94r69 94r85 94r109
+38V13*Arbre_Huffman{21|5P10} 38>27 24|100b16 105s19 107l11 107t24 210s15
+38p27 Sda{27|10P14[12]} 39r39 24|100b30 102r20 103r29 105r45
+42U14*Octet_Binaire 42>28 24|110b15 117l15 117t28 339s10
+42p28 Sda{27|10P14[15]} 43r40 24|110b29 113r28 114r26
+46U15*Parcours_Infixe 46>32 46=52 24|119b21 125s15 126s15 128l11 128t26 241s6
+46p32 Arbre{21|5P10} 24|119b37 121r28 125r31 126r31
+46p52 Bit{27|10P14[15]} 24|119b57 122m27 122r39 124m27 124r39 125m54 126m54
+49U15*Afficher_Huffman 49>32 49=54 49>82 24|132b21 164s11 166s11 168l11 168t27
+. 324s8 325s8
+49p32 Arbre{21|5P10} 24|132b39 150r20 151r24 152r18 154r21 157r42 164r28
+. 166r28
+49p54 Bit{27|10P14[15]} 24|132b61 138r19 139r30 140r26 162m30 162r42 163r25
+. 165r25
+49i82 c{integer} 24|132b89 149r25 162r57
+52U15*Compresser 52>26 52>54 24|172b14 343l8 343t18
+52r26 F_name{14|88R9} 24|172b25 183r32 223r41 225r31
+52b54 B{boolean} 24|172b53 320r9
+55V13*Copie{27|10P14[15]} 55>19 24|30s18 33s18 38b14 48l9 48t14 163s19 165s19
+55p19 sda{27|10P14[15]} 24|38b20 42r24 43r36 44r59
+X 24 compression.adb
+20p9 tab1{27|10P14[23|15]} 23m27 23r27 30m10 31m47 31r47 33m10 34m48 34r48
+39p7 copie{27|10P14[23|15]} 41m20 41r20 44m31 44r31 47r15
+43i14 i{integer} 44r38 44r63
+51i9 Indice{integer} 53m9 55r63 56m14 59r16
+54i13 i{integer} 55r36 56r24
+63i9 Indice{integer} 66m11 68m11 71r62 72m13 75r16
+70i13 i{integer} 71r35 71r77 72r23
+79p10 tab{27|10P14[23|12]} 84m22 84r22 90m26 90r26 95m22 95r22 96r17
+80i10 I{integer} 86m10 89m14 89r19 90r30 95r26
+81p10 Arbre{21|5P10} 85m22 85r22 94m10 95r30
+82i10 somme_f{integer} 93m10 94r27
+87i14 j{integer} 88r15 88r49 90r46
+111i9 c{integer} 114m13 115r17
+113i13 i{integer} 114r30
+133a9 espace{string} 145r17
+134p9 tab1{27|10P14[23|15]} 136m28 136r28 163m11 164m51 164r51
+134p16 tab2{27|10P14[23|15]} 137m28 137r28 165m11 166m51 166r51
+139i15 i{integer} 140r30
+173p5 F{10|44P9} 183m10 183r10 184r18 186r27 195m11 195r11 225m11 225r11
+. 226r21 256r28 314m12 314r12
+173p9 FHuff{10|44P9} 223m14 223r14 224r19 315m12 315r12
+174p5 S{10|42P9} 184m5 187r32 226m9 257r32
+174p9 C{10|42P9} 224m6 229r20 232r23 234r25 249r25 265r25 284r22 291r22 308r22
+175m5 Octet{21|3M10} 187m9 188r35 189r41 191r41 191r61 201m8 202r42 202r76
+. 203r36 257m9 258r70 261r85 267r50 268r72 270r85 330m10 331r13 333r16 336r38
+. 339r49
+175m13 oct{21|3M10} 242m6 246m9 246r17 249r28 250m11 261m16 261r24 265r28
+. 266m11 270m16 270r24 279m13 279r21 284r25 285m8 289m17 289r25 291r25 293m13
+. 299m11 299r19 306m17 306r25 308r25 310m13
+176i5 taille{integer} 197m5 200m8 200r18 202r28
+176i13 d{integer} 255m6 258r25 260m17 260r22 261r92 267r14 268r23 274m9 276r22
+. 278m13 278r18 279r86 296r9 297r18
+176i16 e{integer} 243m6 245m9 245r14 247r12 248m11 258r15 259m17 259r22 263r12
+. 264m11 269m16 269r21 276r12 277m13 277r18 283r9 285m19 287r14 288m17 288r22
+. 292m13 298m11 298r16 304r14 305m17 305r22 309m13
+177p5 Tab{27|10P14[23|9]} 185m17 185r17 188r29 189m37 189r37 191m37 191r37
+. 191r57 194m31 194r31 199r38 201r37 202r72 203m32 203r32
+178p5 Arbre{21|5P10} 209m18 209r18 210m6 215r21 218r21 241r22 322r29 324r25
+. 325r25
+179p5 A{27|10P14[23|12]} 198m17 198r17 202m26 202r26 210r29 329r33 330r33
+180p5 Bit{27|10P14[23|15]} 240m25 240r25 241m29 241r29 244r33 246r52
+180p11 bit1{27|10P14[23|15]} 213m25 213r25 215m27 215r27
+180p18 bit2{27|10P14[23|15]} 216m25 216r25 218m27 218r27
+180p24 Bitt1{27|10P14[23|15]} 318m21 318r21 324m48 324r48
+180p32 Bitt2{27|10P14[23|15]} 319m21 319r21 325m49 325r49
+181p5 Code1{27|10P14[23|18]} 214m27 214r27 215m34 215r34 229r53 258r63 261r78
+. 267r43 268r65 270r78 276r59 279r75 296r46 297r59 299r75 339r43
+181p13 Code2{27|10P14[23|18]} 217m27 217r27 218m34 218r34 230m16 230r16 231r25
+. 232r32 233r28 234r34 236m19 236r19 236r32
+244i10 k{integer} 246r56
+268i17 i{integer} 270r92
+297i12 i{integer} 299r86
+329i12 i{integer} 330r35
+X 27 lca.ads
+4+14 T_Cle 23|9r38 12r30 15r31 18r33
+5+14 T_Donnee 23|9r56 12r47 15r50 18r52
+7k9*LCA 23|2w6 9r34 12r26 15r27 18r29 24|5w6 27|75e8
+9R14*T_Cellule
+10P14*T_LCA(9R14[23|15]) 23|18r71[15] 24r70[15] 24r100[18] 27r48[12] 31r48[12]
+. 35r40[12] 35r60[12] 38r42[12] 42r45[15] 46r72[15] 49r74[15] 55r35[15] 55r56[15]
+. 24|19r69[23|15] 19r99[23|18] 20r23[23|15] 38r36[23|15] 38r57[23|15] 39r22[23|15]
+. 50r49[23|12] 62r50[23|12] 78r42[23|12] 78r62[23|12] 79r22[23|12] 100r45[23|12]
+. 110r45[23|15] 119r77[23|15] 132r81[23|15] 134r30[23|15] 177r25[23|9] 179r14[23|12]
+. 180r47[23|15] 181r30[23|18]
+18U19*Initialiser 24|23s15[23|15] 41s8[23|15] 84s10[23|12] 136s16[23|15]
+. 137s16[23|15] 185s5[23|9] 198s5[23|12] 213s13[23|15] 214s15[23|18] 216s13[23|15]
+. 217s15[23|18] 240s13[23|15] 318s9[23|15] 319s9[23|15]
+23V18*Est_Vide{boolean} 23|28s30[12] 32s30[12] 39s30[12] 43s31[15] 24|42s15[23|15]
+. 199s29[23|9] 231s16[23|18]
+27V18*Taille{integer} 24|29s34[23|15] 32s34[23|15] 43s29[23|15] 54s21[23|12]
+. 70s21[23|12] 87s22[23|12] 102s13[23|12] 113s21[23|15] 122s32[23|15] 124s32[23|15]
+. 138s12[23|15] 139s23[23|15] 162s35[23|15] 233s21[23|18] 244s26[23|15] 258s37[23|15]
+. 267s26[23|15] 268s39[23|15] 276s33[23|15] 296s20[23|15] 297s33[23|15] 329s26[23|12]
+35U19*Enregistrer 24|27s19[23|18] 29s17[23|15] 32s17[23|15] 44s19[23|15]
+. 90s14[23|12] 95s10[23|12] 122s15[23|15] 124s15[23|15] 162s18[23|15] 189s25[23|9]
+. 191s25[23|9] 194s19[23|9] 202s14[23|12]
+43U19*Supprimer 24|203s22[23|9] 230s6[23|18] 236s9[23|18]
+49V18*Cle_Presente{boolean} 24|188s16[23|9]
+52V14*s_Cle{21|3M10} 24|201s31[23|9] 232s26[23|18] 234s28[23|18] 236s26[23|18]
+55V14*position_cle{integer} 24|229s40[23|18]
+59V18*La_Donnee{integer} 24|44s49[23|15] 55s22[23|12] 55s49[23|12] 71s21[23|12]
+. 71s48[23|12] 90s32[23|12] 93s28[23|12] 93s78[23|12] 94s35[23|12] 94s75[23|12]
+. 103s19[23|12] 114s16[23|15] 140s16[23|15] 191s47[23|9] 202s62[23|9] 246s42[23|15]
+. 258s53[23|18] 261s49[23|15] 261s68[23|18] 267s33[23|18] 268s55[23|18] 270s49[23|15]
+. 270s68[23|18] 276s49[23|18] 279s46[23|15] 279s65[23|18] 296s36[23|18] 297s49[23|18]
+. 299s46[23|15] 299s65[23|18] 330s23[23|12] 339s33[23|18]
+
