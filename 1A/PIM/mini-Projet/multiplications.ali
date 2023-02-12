@@ -1,0 +1,142 @@
+V "GNAT Lib v2021"
+M P W=b
+A -gnatwa
+A -gnata
+P SS ZX
+
+RN
+RV NO_CALENDAR
+RV NO_DELAY
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTIONS
+RV NO_FIXED_POINT
+RV NO_IO
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U multiplications%b	multiplications.adb	44492139 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.calendar%s	a-calend.adb		a-calend.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+Z ada.numerics.discrete_random%s
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W alea%s		alea.adb		alea.ali
+Z interfaces%s		interfac.ads		interfac.ali
+W system%s		system.ads		system.ali
+Z system.assertions%s	s-assert.adb		s-assert.ali
+Z system.img_fixed_64%s	s-imfi64.ads		s-imfi64.ali
+Z system.random_numbers%s  s-rannum.adb		s-rannum.ali
+
+D ada.ads		20210520051130 76789da1 ada%s
+D a-assert.ads		20210520051127 a718b65c ada.assertions%s
+D a-calend.ads		20210520051127 474d9720 ada.calendar%s
+D a-except.ads		20210520051127 946f3014 ada.exceptions%s
+D a-inteio.ads		20210520051127 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20210520051127 e4a01f64 ada.io_exceptions%s
+D a-numeri.ads		20210520051128 84bea7a3 ada.numerics%s
+D a-nudira.ads		20210520051128 5984dff3 ada.numerics.discrete_random%s
+D a-nudira.adb		20210520051128 0bfd6ec4 ada.numerics.discrete_random%b
+D a-stream.ads		20210520051128 119b8fb3 ada.streams%s
+D a-string.ads		20210520051128 90ac6797 ada.strings%s
+D a-sttebu.ads		20210520051128 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20210520051128 808c40ad ada.strings.utf_encoding%s
+D a-tags.ads		20210520051129 9eaa38c6 ada.tags%s
+D a-textio.ads		20210520051129 aef4d56d ada.text_io%s
+D a-tiinio.ads		20210520051129 390edddb ada.text_io.integer_io%s
+D a-unccon.ads		20210520051129 0e9b276f ada.unchecked_conversion%s
+D alea.ads		20220523075407 9fe1c6b1 alea%s
+D alea.adb		20220523075407 ca5296b2 alea%b
+D interfac.ads		20210520051131 edec285f interfaces%s
+D i-cstrea.ads		20210520051131 e53d8b8e interfaces.c_streams%s
+D multiplications.adb	20220611184827 c45a2c61 multiplications%b
+D system.ads		20210520051134 a2da961d system%s
+D s-arit64.ads		20210520051131 5f88d2b0 system.arith_64%s
+D s-assert.ads		20210520051131 6a49a4e4 system.assertions%s
+D s-crtl.ads		20210520051131 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210520051131 54135002 system.exception_table%s
+D s-ficobl.ads		20210520051131 078245e4 system.file_control_block%s
+D s-imagef.ads		20210520051132 019cdf69 system.image_f%s
+D s-imageu.ads		20210520051132 525c30c6 system.image_u%s
+D s-imfi64.ads		20210520051132 dbac59b3 system.img_fixed_64%s
+D s-imguns.ads		20210520051132 0e4da2ac system.img_uns%s
+D s-parame.ads		20210520051133 4752c4cb system.parameters%s
+D s-putima.ads		20210520051133 4e095881 system.put_images%s
+D s-rannum.ads		20210520051133 c3978523 system.random_numbers%s
+D s-rannum.adb		20210520051133 2631917b system.random_numbers%b
+D s-ransee.ads		20210520051133 01a57b33 system.random_seed%s
+D s-secsta.ads		20210520051133 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210520051133 a7318a92 system.soft_links%s
+D s-stache.ads		20210520051133 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210520051133 472fbca8 system.standard_library%s
+D s-stoele.ads		20210520051133 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210520051133 ed88f8fb system.storage_elements%b
+D s-traent.ads		20210520051133 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210520051133 2b077493 system.unsigned_types%s
+D s-valuns.ads		20210520051133 dac7b45d system.val_uns%s
+D s-valueu.ads		20210520051133 7b8fccf5 system.value_u%s
+D s-wchcon.ads		20210520051134 1b7d22d2 system.wch_con%s
+D unchconv.ads		20210520051134 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z b b [multiplications standard 11 11 none]
+G r i none [multiplications standard 11 11 none] [alea standard 5 9 none]
+X 1 ada.ads
+16K9*Ada 20e8 22|6r6 6r33 7r6 7r33 8r6 8r33
+X 3 a-calend.ads
+36K13*Calendar 413e17 22|8w10 8r37
+42I9*Time<226I9> 22|22r13 23r11
+56V13*Clock{42I9} 22|48s22 64s28
+112V14*"-"{duration} 22|67s52
+226I9 Time_Rep<long_long_integer>
+X 5 a-inteio.ads
+18K13*Integer_Text_IO[16|46] 22|7w10 7r37
+X 9 a-nudira.adb
+53V16 Random[35|86]{integer} 36|402b13[19|7[22|13]]
+65V16 Random[35|86]{integer} 36|402b13[19|7[22|13]]
+X 15 a-textio.ads
+58K13*Text_IO 725e16 22|6w10 6r37
+379U14*Get 22|99s13
+463U14*Put 22|43s13 50s21 50s42 50s67 54s21 78s76 79s39 79s99 87s17 89s17
+. 90s17 91s17 92s17 98s13 107s17
+506U14*Put_Line 22|42s13 57s25 59s25 62s21 76s27 77s23 78s146 79s171 80s32
+. 86s17 93s17 94s17 97s13 108s17
+X 16 a-tiinio.ads
+59U14*Get 22|44s13[5|18] 55s21[5|18]
+80U14*Put 22|50s32[5|18] 50s53[5|18] 53s21[5|18] 78s39[5|18] 78s133[5|18]
+. 79s58[5|18] 79s157[5|18] 88s17[5|18]
+X 18 alea.ads
+5k9*Alea 13e9 22|9w6 14r21
+11U19 Get_Random_Number 22|51s21[13]
+X 20 interfac.ads
+55I9*Integer_64<long_long_integer>
+79M9*Unsigned_32
+82M9*Unsigned_64
+X 22 multiplications.adb
+11U11*Multiplications 11b11 112l5 112t20
+13K13 Mon_Alea[18|5] 15r13
+17i5 Table{integer} 39m9 41r15 41r28 44m18 50r57 52r41 78r137 79r161
+18i5 Aleatoire{integer} 51m39 52r49 53r26 71r44
+19i5 Reponse{integer} 55m25 56r24
+20i5 Reponse_Correcte{integer} 52m21 56r34
+21i5 Nombre_Reponses_Incorrectes{integer} 37m9 60m25 60r56 75r18 78r44 79r66
+22i5 Debut{3|42I9} 48m13 67r53
+23i5 Fin{3|42I9} 64m21 67r49
+24o5 Delai_Operation_Actuelle{duration} 34m9 67m21 68r50 69r40 70r42
+25o5 Delai_Maximal{duration} 35m9 69r24 70m25 85r16 90r36
+26o5 Delai_Moyen{duration} 36m9 68m21 68r36 83m13 83r29 84r31 92r36
+27o5 Delai_Moyen_Un{duration} 84m13 85r32
+28i5 Table_A_Reviser{integer} 71m25 88r21
+29b5 Continuer{boolean} 33r11 101m17 104m17
+30e5 Continuer_Reponse{character} 99m17 100r16 100r43 103r19 103r46
+31b5 Reponse_Juste{boolean} 38m9 96r15 102m17 105m17
+46i13 I{integer} 50r36
+X 24 s-arit64.ads
+44I12*Int64{20|55I9}
+54V13*Multiply_With_Ovflo_Check64{44I12} 55i<c,__gnat_mulv64>22
+X 35 s-rannum.ads
+77V13*Random{20|79M9} 36|224i21
+78V13*Random{20|82M9} 36|224i21
+
